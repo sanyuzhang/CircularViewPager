@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <declare-styleable name="CircularTabLayout">
+    <attr name="scrollMillisecondsPerInch"
+        format="float"/>
+    <attr name="triggerOffset"
+        format="float"/>
+    <attr name="flingFactor"
+        format="float"/>
+    <attr name="scrollEnabled"
+        format="boolean"/>
+    <attr name="tabTextSize"
+        format="dimension"/>
+
+    <attr name="tabMargins"
+      format="dimension"/>
+    <attr name="tabMarginStart"
+        format="dimension"/>
+    <attr name="tabMarginTop"
+        format="dimension"/>
+    <attr name="tabMarginEnd"
+        format="dimension"/>
+    <attr name="tabMarginBottom"
+        format="dimension"/>
+
+  </declare-styleable>
+
+</resources>
