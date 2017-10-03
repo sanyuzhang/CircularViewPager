@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="toolbar_textsize">16sp</dimen>
+    <dimen name="circular_viewpager_textsize">60sp</dimen>
+    <dimen name="circular_tab_textsize">12sp</dimen>
+    <dimen name="circular_tab_margin">24dp</dimen>
+    <dimen name="circular_tab_indicator_height">2dp</dimen>
+</resources>
