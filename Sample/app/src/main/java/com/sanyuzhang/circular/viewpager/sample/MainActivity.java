@@ -1,9 +1,9 @@
 package com.sanyuzhang.circular.viewpager.sample;
 
-import android.app.Fragment;
-import android.app.FragmentManager;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.os.Bundle;
-import android.support.v13.app.FragmentPagerAdapter;
+import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
@@ -28,9 +28,9 @@ public class MainActivity extends AppCompatActivity {
         CircularTabLayout tabLayout = (CircularTabLayout) findViewById(R.id.circular_tab);
         CircularViewPager viewPager = (CircularViewPager) findViewById(R.id.circular_viewpager);
 
-        SampleFragmentPagerAdapter adapter = new SampleFragmentPagerAdapter(getFragmentManager());
+        SampleFragmentPagerAdapter adapter = new SampleFragmentPagerAdapter(getSupportFragmentManager());
 
-        viewPager.setFragmentAdapter(adapter, getFragmentManager());
+        viewPager.setFragmentAdapter(adapter, getSupportFragmentManager());
         tabLayout.setupWithViewPager(viewPager);
     }
 
