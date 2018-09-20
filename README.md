@@ -2,7 +2,7 @@ CircularViewPager
 =================
 A Circular ViewPager for Android
 
-CircularViewPager actively supports android versions 4.0.3 (Ice Cream Sandwich) and above.
+CircularViewPager actively supports android versions 4.0.3 (Ice Cream Sandwich) and above (till compileSdkVersion 28.0.2).
 That said, it works all the way down to 4.0.3 but is not actively tested or working perfectly.
 
 Here is a short gif showing the functionality you get with this library:
