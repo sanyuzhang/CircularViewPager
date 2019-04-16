@@ -22,11 +22,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        CircularTabLayout tabLayout = (CircularTabLayout) findViewById(R.id.circular_tab);
-        CircularViewPager viewPager = (CircularViewPager) findViewById(R.id.circular_viewpager);
+        CircularTabLayout tabLayout = findViewById(R.id.circular_tab);
+        CircularViewPager viewPager = findViewById(R.id.circular_viewpager);
 
         SampleFragmentPagerAdapter adapter = new SampleFragmentPagerAdapter(getSupportFragmentManager());
 
